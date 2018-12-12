@@ -28,7 +28,7 @@
 
 .ingrid {
 	display: grid;
- 
+  grid-template-rows: 1fr 1fr; 
 	background: #272631;
   overflow-x: hidden;
 }
@@ -255,7 +255,7 @@ a.top_button1 {
 }
 
 .container_item{
-    flex-basis: 10px;
+    flex-basis: 200px;
     list-style: none;
     text-align: left;
     padding: 10px 10px 10px 60px
@@ -276,9 +276,9 @@ a.top_button1 {
  
 .photo_img {
 
-    max-width: 400px;
-    
-    max-height: 250px;
+    width: 100%;
+    height: 100%;
+  
     
     border-radius: 5px;
 
